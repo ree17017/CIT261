@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="item1">
+        <h1>JavaScript</h1>
+      </div>
+      <div class="item2">
+        <button
+          onclick="alertButtonClicked()"
+          onmouseover="cantTouchMe()"
+          id="button"
+        >
+          Can't Touch Me
+        </button>
+      </div>
+      <div class="item3">
+        <label for="textBox">Type in the box</label>
+        <input
+          type="text"
+          name="textBox"
+          id="textBox"
+          onkeydown="myFunction(event)"
+        />
+        <p>The key pressed was</p>
+        <p id="demo"></p>
+        <div id="dodger">Dodger</div>
+      </div>
+      <div class="item4">
+        <select name="color" id="changeColor" onchange="changeColor()">
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+          <option value="orange">Orange</option>
+        </select>
+        <p>onchange() event</p>
+        <input
+          type="text"
+          name="words"
+          id="words"
+          value=""
+          onchange="getWords()"
+        />
+        <div id="changeColor"></div>
+      </div>
+      <div class="item5"></div>
+    </div>
+  </body>
+</html>
+<script src="js/events.js"></script>

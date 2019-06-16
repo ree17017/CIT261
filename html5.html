@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body onload="draw()">
+
+
+    <div class="grid-container">
+        <div class="item1">HTML 5</div>
+        <div class="item2">
+            <h1>Canvas</h1>
+            <canvas id="draw" width="100" height="100">Current Stock Prices:</canvas><br>
+        </div>
+        <div class="item3">
+            <p>Video</p>
+            <div id="movieDisplay"></div>
+            <label for="whichMovie">Choose a movie to watch.</label><br>
+            <select name="whichMovie" id="whichMovie">
+                <option value="http://cit261.joshuarreed.com/movies/2011-10-013-the-last-supper-360p-eng.mp4">The Last
+                    Super</option>
+                <option value="http://cit261.joshuarreed.com/movies/main.mp4">How can I Understand?</option>
+            </select>
+            </br>
+            Controls: <input type="checkbox" name="controls" id="videoControls"><br>
+            Autoplay: <input type="checkbox" name="autoplay" id="videoAutoplay"><br>
+            Loop: <input type="checkbox" name="loop" id="videoLoop"><br>
+            <button onclick="clearInnerHTML('movieDisplay')">Clear</button>
+            <button onclick="loadVideo()">Load</button>
+        </div>
+        <div class="item4">
+            <p>Audio</p>
+            <label for="whichAudio">Choose a audio to listen to.</label><br>
+            <select name="whichAudio" id="whichAudio">
+                <option value="http://cit261.joshuarreed.com/movies/2011-10-013-the-last-supper-360p-eng.mp4">The Last
+                    Super</option>
+                <option value="http://cit261.joshuarreed.com/movies/main.mp4">How can I Understand?</option>
+            </select>
+            <br>
+            Autoplay: <input type="checkbox" name="autoplay" id="audioAutoplay"><br>
+            Controls: <input type="checkbox" name="controls" id="audioControls"><br>
+            Loop: <input type="checkbox" name="loop" id="audioLoop"><br>
+            <div id="audioDisplay"></div>
+            <button onclick="clearInnerHTML('audioDisplay')">Clear</button>
+            <button onclick="loadAudio()">Load</button>
+        </div>
+        <div class="item5">
+        </div>
+    </div>
+</body>
+
+<script src="js/html5.js"></script>
+
+</html>

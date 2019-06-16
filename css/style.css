@@ -1,0 +1,63 @@
+/* Imports */
+li {
+  list-style: none; }
+
+canvas {
+  border: 1px solid black; }
+
+#demo {
+  text-align: center; }
+
+#dodger {
+  background-color: blue;
+  color: red;
+  height: 10px;
+  left: 100px;
+  top: 100px;
+  position: absolute;
+  width: 10px; }
+
+.dodger {
+  width: 10px;
+  height: 10px;
+  left: 100px;
+  top: 100px;
+  background-color: blue;
+  color: red; }
+
+#button {
+  position: absolute;
+  top: 10px;
+  left: 10px; }
+
+#button:hover {
+  color: orange; }
+
+/* Grid layout */
+.item1 {
+  grid-area: header; }
+
+.item2 {
+  grid-area: menu; }
+
+.item3 {
+  grid-area: main; }
+
+.item4 {
+  grid-area: right; }
+
+.item5 {
+  grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header header header header header header" "menu main main main right right" "menu footer footer footer footer footer";
+  grid-gap: 10px;
+  padding: 10px; }
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Local Storage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/local.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="grid-container">
+        <div class="item1">
+            <h1>Local Storage</h1>
+
+        </div>
+        <div class="item2"> <label for="name">Your Name:
+                <input type="text" name="name" id="name" required>
+            </label>
+            <label for="gender">Gender:
+                <input type="text" name="gender" id="gender" required>
+            </label>
+            <label for="pet">Pet type:
+                <input type="text" name="pet" id="pet" required>
+            </label>
+            <label for="game">Favorite Game:
+                <input type="text" name="game" id="game" required>
+            </label>
+
+            <button id="load" onclick="loadMadLib()">Load</button><button id="clear" onclick="clearText()">Clear</button><button onclick="clearLocalStorage()">Clear Local Storage</button><button onclick="saveLocal()">Save String</button>
+            <div id="history"></div>
+        </div>
+        <div class=" item3 ">
+            <div id="madLib"></div>
+        </div>
+        <div class="item4 ">
+            <a href="index.html">Home</a>
+            <a href="https://github.com/ree17017/CIT261">GitHub</a>
+            <hr>
+            <p>Local Storage API</p>
+            <p> Storing and Retrieving Simple Data</p>
+            <p> Arrays</p>
+            <p> Associative Arrays</p>
+            <p> and Objects</p>
+        </div>
+        <div class="item5 "></div>
+    </div>
+</body>
+
+</html>

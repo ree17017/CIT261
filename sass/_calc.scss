@@ -1,0 +1,13 @@
+/******************************
+* Calculator Style
+* Author: Joshua Reed
+******************************/
+
+.flex-container {
+    display: flexbox;
+    background: grey;
+}
+
+.flex-container>div {
+    background: blue;
+}
