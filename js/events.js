@@ -1,14 +1,11 @@
 function myFunction(event) {
   var demo = document.getElementById("demo");
   var x = event.key;
-  console.log(demo.style.left);
   demo.innerHTML = '"' + x + '"';
 }
 
 function cantTouchMe() {
   var button = document.getElementById("button");
-
-  console.log("button.style.top: ", button.style.top);
   button.style.top = randomNumber(button.style.top) + "px";
 }
 
@@ -17,31 +14,72 @@ function randomNumber(number = 200) {
 
   if (number > 0) {
     ranNumber = Math.random() * number;
-    console.log("if ranNumber: ", ranNumber);
   } else {
     ranNumber = Math.random() * 300;
-    console.log("else ranNumber: ", ranNumber);
   }
   return ranNumber;
 }
 
 function alertButtonClicked() {
   alert("You touched me! Ouch!");
-  window.close();
 }
 
 window.onload = alert(
   "The window is Loaded. Good Luck. You are going to need it."
 );
 
+var changeBackgroundColor = document.getElementById("changeBackgroundColor");
+changeColorDisplay.style.width = "100px";
+changeColorDisplay.style.height = "50px";
+changeColorDisplay.style.border = "1px solid black";
+var words = document.getElementById("words");
+words.size = "50";
+
 function changeColor() {
-  var whichColor = document.getElementById("whichColor");
-  whichColor.style.width = "100px";
-  whichColor.style.height = "100px";
-  whichColor.style.background = whichColor.value;
+  var changeBackgroundColor = document.getElementById("changeBackgroundColor");
+  var changeColorDisplay = document.getElementById("changeColorDisplay");
+  changeColorDisplay.style.background = changeBackgroundColor.value;
 }
 
 function getWords() {
   var words = document.getElementById("words").value;
-  document.getElementById("changeColor").textContent = words;
+  document.getElementById("changeColorDisplay").textContent = words;
 }
+
+function javaScriptAlign() {
+  var changeColorDisplay = document.getElementById("changeColorDisplay");
+  var left = document.getElementById("left");
+  var center = document.getElementById("center");
+  var right = document.getElementById("right");
+
+  if (left.checked) {
+    changeColorDisplay.style.textAlign = "left";
+  } else if (center.checked) {
+    changeColorDisplay.style.textAlign = "center";
+  } else if (right.checked) {
+    changeColorDisplay.style.textAlign = "right";
+  }
+}
+
+function javaScriptPosition() {
+  var changeColorDisplay = document.getElementById("changeColorDisplay");
+  var top = document.getElementById("top");
+  var middle = document.getElementById("middle");
+  var bottom = document.getElementById("bottom");
+  changeColorDisplay.style.position = "relative";
+  if (top.checked) {
+    changeColorDisplay.style.top = 0 + "px";
+  } else if (middle.checked) {
+    changeColorDisplay.style.top = 50 + "%";
+  } else if (bottom.checked) {
+    changeColorDisplay.style.top = 100 + "%";
+  }
+}
+
+document.getElementById("top").addEventListener("change", javaScriptPosition);
+document
+  .getElementById("middle")
+  .addEventListener("change", javaScriptPosition);
+document
+  .getElementById("bottom")
+  .addEventListener("change", javaScriptPosition);

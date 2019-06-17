@@ -37,10 +37,14 @@
         />
         <p>The key pressed was</p>
         <p id="demo"></p>
-        <div id="dodger">Dodger</div>
       </div>
       <div class="item4">
-        <select name="color" id="changeColor" onchange="changeColor()">
+        <select
+          name="color"
+          id="changeBackgroundColor"
+          onchange="changeColor()"
+        >
+          <option value="">Select a Color</option>
           <option value="green">Green</option>
           <option value="blue">Blue</option>
           <option value="orange">Orange</option>
@@ -52,8 +56,34 @@
           id="words"
           value=""
           onchange="getWords()"
+          placeholder="Type something and hit enter"
         />
-        <div id="changeColor"></div>
+        <div id="changeColorDisplay"></div>
+        Left Align<input
+          type="radio"
+          name="align"
+          id="left"
+          onchange="javaScriptAlign()"
+        />
+        <br />
+        Center Align<input
+          type="radio"
+          name="align"
+          id="center"
+          onchange="javaScriptAlign()"
+          checked
+        />
+        <br />
+        Right Align<input
+          type="radio"
+          name="align"
+          id="right"
+          onchange="javaScriptAlign()"
+        />
+        <br />
+        Move to Top<input type="radio" name="position" id="top" checked /><br />
+        Move to Middle<input type="radio" name="position" id="middle" /> <br />
+        Move to Bottom<input type="radio" name="position" id="bottom" />
       </div>
       <div class="item5"></div>
     </div>
