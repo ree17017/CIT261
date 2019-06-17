@@ -70,3 +70,9 @@
 1. I am moving to Utah this week I got my house up for sale. I did put in 7 hours of studying Javascript but did not get a lot of coding done. See how I can do tonight for the next 2 hours.
 2. Made it to the team meeting. Recorded it and going to post it to YouTube. 
 3. Seems like everyone on the team is doing fine with their code and have no blockers.
+
+## June 16, 2019
+
+1. Struggling with getting everything done. Selling my house has taken a lot of time prepping for it to be sold. Internship is also taking a lot of time to keep up and to get a full time postion after I graduate. See how I can find time to finish all 13 assignemnets. 
+2. Turned in 2 more fluency reports. They where not hard to accomplish. CSS is easy to manipulate with JS. Changing things with CSS is really simple to accomplish. 
+3. Two last assignemnets to finish up. This week and get at least a basic.
