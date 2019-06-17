@@ -51,7 +51,7 @@
 
 1. Doing great with my websites. I know the information very well.
 2. I taught JavaScript Objects which I studied for a long period of time and I think went amazing.
-3. Turned in two fluency reports today. JavaScript and JavaScript Objects. See what the teacher thinkgs.
+3. Turned in two fluency reports today. JavaScript and JavaScript Objects. See what the teacher thinks.
 4. The team did really well. I was open to the idea that I might have missed a couple loops but I.
 
 ## May 23, 2019
@@ -73,6 +73,6 @@
 
 ## June 16, 2019
 
-1. Struggling with getting everything done. Selling my house has taken a lot of time prepping for it to be sold. Internship is also taking a lot of time to keep up and to get a full time postion after I graduate. See how I can find time to finish all 13 assignemnets. 
+1. Struggling with getting everything done. Selling my house has taken a lot of time prepping for it to be sold. Internship is also taking a lot of time to keep up and to get a full time position after I graduate. See how I can find time to finish all 13 assignments. 
 2. Turned in 2 more fluency reports. They where not hard to accomplish. CSS is easy to manipulate with JS. Changing things with CSS is really simple to accomplish. 
-3. Two last assignemnets to finish up. This week and get at least a basic.
+3. Two last assignments to finish up. This week and get at least a basic.
