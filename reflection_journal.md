@@ -76,3 +76,9 @@
 1. Struggling with getting everything done. Selling my house has taken a lot of time prepping for it to be sold. Internship is also taking a lot of time to keep up and to get a full time position after I graduate. See how I can find time to finish all 13 assignments. 
 2. Turned in 2 more fluency reports. They where not hard to accomplish. CSS is easy to manipulate with JS. Changing things with CSS is really simple to accomplish. 
 3. Two last assignments to finish up. This week and get at least a basic.
+
+## June 22, 2019
+
+1. Working with CSS Animation had a lot of fun making things move and change color.
+2. Found that if you have two things that are Animations with a hover the original will be triggered again.
+3. Group meeting went well. I think everyone is done or almost done. Should be fun seeing what everyone does for their final project
