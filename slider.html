@@ -1,33 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/slider.css"
+    />
+    <title>CSS3 A.T.T.</title>
+    <style>
+      div > h1 {
+        text-align: center;
+      }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
-    <title>Slider Demo</title>
-</head>
+      @keyframes circleSquare {
+        0% {
+          border-radius: 0%;
+          transform: rotate(0deg);
+          top: 200px;
+          left: 50px;
+          background-color: pink;
+        }
+        25% {
+          background-color: blue;
+          border-radius: 15%;
+          left: 150px;
+          transform: rotate(90deg);
+          top: 200px;
+        }
+        50% {
+          background-color: black;
+          border-radius: 25%;
+          left: 150px;
+          transform: rotate(10deg);
+          top: 300px;
+        }
+        75% {
+          background-color: red;
+          border-radius: 35%;
+          left: 50px;
+          transform: rotate(50deg);
+          top: 300px;
+        }
 
-<body>
+        100% {
+          background-color: pink;
+          border-radius: 50%;
+          transform: rotate(30deg);
+          top: 200px;
+          left: 50px;
+        }
+      }
+      @keyframes moveCircle {
+        0% {
+        }
+        50% {
+        }
+        100% {
+        }
+      }
+
+      @keyframes rotateSquare {
+        0% {
+          transform: rotate(0deg);
+        }
+        25% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(0deg);
+        }
+        75% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+
+      @keyframes dropCircle1 {
+        0% {
+          top: 250px;
+          left: 375px;
+        }
+        25% {
+          top: 300px;
+          left: 375px;
+        }
+        50% {
+          top: 350px;
+          left: 375px;
+        }
+        75% {
+          top: 400px;
+          left: 375px;
+        }
+        100% {
+          top: 450px;
+          left: 375px;
+        }
+      }
+      @keyframes dropCircle2 {
+        0% {
+          top: 250px;
+          left: 300px;
+        }
+        25% {
+          top: 300px;
+          left: 300px;
+        }
+        50% {
+          top: 350px;
+          left: 300px;
+        }
+        75% {
+          top: 400px;
+          left: 300px;
+        }
+        100% {
+          top: 450px;
+          left: 300px;
+        }
+      }
+
+      @keyframes dropSquare {
+        0% {
+          top: 286px;
+          left: 338px;
+          transform: rotate(0deg);
+        }
+        25% {
+          top: 336px;
+          left: 338px;
+          transform: rotate(45deg);
+        }
+        50% {
+          top: 386px;
+          left: 338px;
+          transform: rotate(90deg);
+        }
+        75% {
+          top: 436px;
+          left: 338px;
+          transform: rotate(180deg);
+        }
+        100% {
+          top: 486px;
+          left: 338px;
+          transform: rotate(270deg);
+        }
+      }
+
+      #circle {
+        animation: circleSquare 2s ease-in 2;
+        background-color: orange;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+      }
+
+      #square {
+        animation: dropSquare 5s linear 2;
+        background-color: red;
+        height: 100px;
+        top: 286px;
+        left: 338px;
+        position: absolute;
+        width: 100px;
+        transform: rotate(45deg);
+      }
+
+      #circle1 {
+        top: 250px;
+        left: 375px;
+        animation: dropCircle1 5s linear 2;
+        background-color: red;
+        border-radius: 50%;
+        height: 100px;
+        position: absolute;
+        width: 100px;
+      }
+      #circle2 {
+        top: 250px;
+        left: 300px;
+        animation: dropCircle2 5s linear 2;
+        background-color: red;
+        border-radius: 50%;
+        height: 100px;
+        position: absolute;
+        width: 100px;
+      }
+      @keyframes wordsBig {
+        0% {
+          font-weight: 100;
+          font-size: 10px;
+          color: red;
+        }
+        25% {
+          font-weight: 400;
+          font-size: 20px;
+          color: white;
+        }
+        50% {
+          font-weight: 600;
+          font-size: 30px;
+          color: blue;
+        }
+        75% {
+          font-weight: 400;
+          font-size: 20px;
+          color: red;
+        }
+        100% {
+          font-weight: 100;
+          font-size: 10px;
+          color: white;
+        }
+      }
+      #words > div {
+        animation: wordsBig 10s linear infinite;
+        background-color: grey;
+        position: relative;
+        width: 22px;
+        transition: width 2s;
+        font-size: 30px;
+      }
+
+      #words > div:hover {
+        width: 100px;
+        width: 100px;
+      }
+
+      #tokens > img {
+        width: 40px;
+        height: 40px;
+        transition: width 0.5s, heigh 0.5s;
+      }
+
+      #tokens > img:hover {
+        transform: rotate(-45deg);
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
     <div class="slider-container">
-        <a href="#" class="slider-trigger">
-            <div class="" onclick="toggleNav(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-        </a>
-        <div class="slider-parent">
-            <div class="content">
-                <a href="#">One</a> <br>
-                <a href="#">Two</a> <br>
-                <a href="#">Three</a> <br>
-                <a href="#">Four</a> <br>
-            </div>
+      <a href="#" class="slider-trigger">
+        <div class="" onclick="toggleNav(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
         </div>
+      </a>
+      <div class="slider-parent">
+        <div class="content">
+          <a href="#">One</a> <br />
+          <a href="#">Two</a> <br />
+          <a href="#">Three</a> <br />
+          <a href="#">Four</a> <br />
+        </div>
+      </div>
     </div>
-</body>
-<script src="js/slider.js"></script>
 
+    <div class="grid-container">
+      <div class="item1">
+        <h1>CSS3 Transitions, Animations, and Transformation</h1>
+      </div>
+      <div class="item2">
+        <div id="circle"></div>
+      </div>
+      <div class="item3">
+        <div id="square"></div>
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+        <div id="tokens">
+          <img src="pics/facebook.png" alt="FaceBook" />
+          <img src="pics/instagram.jpeg" alt="Instagram" />
+          <img src="pics/linkedin.png" alt="LinkedIn" />
+        </div>
+      </div>
+      <div class="item4">
+        <div id="words">
+          <div>I</div>
+          <div>L</div>
+          <div>O</div>
+          <div>V</div>
+          <div>E</div>
+          <div>J</div>
+          <div>A</div>
+          <div>V</div>
+          <div>A</div>
+          <div>S</div>
+          <div>C</div>
+          <div>R</div>
+          <div>I</div>
+          <div>P</div>
+          <div>T</div>
+        </div>
+      </div>
+      <div class="item5"></div>
+    </div>
+  </body>
+  <script src="js/slider.js"></script>
 </html>
+
+<body></body>

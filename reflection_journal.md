@@ -82,3 +82,10 @@
 1. Working with CSS Animation had a lot of fun making things move and change color.
 2. Found that if you have two things that are Animations with a hover the original will be triggered again.
 3. Group meeting went well. I think everyone is done or almost done. Should be fun seeing what everyone does for their final project
+
+## June 27, 2019
+
+1. Working on full CSS Animation, transitions, transforms. I think I did at least a basic or high level for the css on that assignment. Just takes a lot of time making the layout and writing what should happen. CSS is one of the easyest things. Super fun.
+2. Group meeting went really well. Almost everyone is done with their fluency reports and started on their final project. I will be turning in the last CSS project tonight.
+3. I have all the videos post for the group in the announcements. We are going to continue with our meetings to make sure everyone is well supported. I think this is smart to make sure nobody has any problems. We also get to showcase what we did that we if anyone wants to see. 
+4. Writing the professionalism paper tonight. Get that turned in and have a good weekend.
