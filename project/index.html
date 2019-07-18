@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Your Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <style></style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1"></div>
+        <div class="item2" style="text-align: left;">
+            <ul>
+                <li>Weather App</li>
+                <li>UserName</li>
+                <li>Search for Locations</li>
+                <li>Saves the Location if the user wants to</li>
+                <li>Keeps Local storage of the city name</li>
+                <li>Keeps local storage of the city information</li>
+                <li>Build cards for each town stats</li>
+                <li>Create CSS to move the user to each part</li>
+                <li></li>
+            </ul>
+            <label for="cityName">Enter City name:
+                <input type="text" name="cityName" id="cityName" value="turlock" placeholder="Enter City Name">
+            </label><br>
+            <button id="loadWeather">Search</button><br>
+            <button class="clear" id="clear">Clear</button>
+
+        </div>
+        <div class="item3" style="">
+            <!-- <ul id="weatherList">
+                <li>
+                    <div>
+                        <p>Turlock</p>
+                    </div>
+                </li>
+            </ul> -->
+            <div class="flex-container" id="weatherList">
+            </div>
+        </div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+    </div>
+</body>
+
+<script src="js/ajax.js"></script>
+<script src="js/save.js"></script>
+
+</html>

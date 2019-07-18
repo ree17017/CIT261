@@ -1,0 +1,111 @@
+.hot > ul {
+  background-color: white; }
+.hot:hover {
+  background-color: red;
+  background-image: url(https://us.123rf.com/450wm/flukesamed/flukesamed1507/flukesamed150700007/41972309-blaze-fire-flame-texture-background.jpg?ver=6); }
+
+.cool > ul {
+  background-color: white; }
+.cool:hover {
+  background-color: skyblue;
+  background-image: url(https://images.all-free-download.com/images/graphicthumb/bright_spring_backgrounds_530600.jpg); }
+
+.cold > ul {
+  background-color: white; }
+.cold:hover {
+  background-color: snow;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/61nR-hxJBfL._SX466_.jpg); }
+
+.bar1 {
+  width: 35px;
+  height: 5px;
+  background-color: #ccc;
+  transition: 0.2s all linear;
+  margin: 5px 0px;
+  border-radius: 25px; }
+
+.bar2 {
+  width: 35px;
+  height: 5px;
+  background-color: #ccc;
+  transition: 0.2s all linear;
+  margin: 5px 0px;
+  border-radius: 25px; }
+
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ccc;
+  transition: 0.2s all linear;
+  margin: 5px 0px;
+  border-radius: 25px; }
+
+.bar {
+  max-width: 35px;
+  position: relative;
+  top: 5px;
+  left: 205px;
+  padding: 10px 10px; }
+  .bar:hover .bar1 {
+    transform: rotate(-45deg) translate(0px, 0px);
+    background-color: black; }
+  .bar:hover .bar2 {
+    transform: rotate(45deg) translate(-7px, -8px);
+    background-color: white; }
+  .bar:hover .bar3 {
+    transform: rotate(45deg) translate(-15px, -15px);
+    background-color: black; }
+
+/* Grid layout */
+.item1 {
+  grid-area: header; }
+
+.item2 {
+  grid-area: menu; }
+
+.item3 {
+  grid-area: main; }
+
+.item4 {
+  grid-area: right; }
+
+.item5 {
+  grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header header header header header header" "menu main main main right right" "menu footer footer footer footer footer";
+  grid-gap: 10px;
+  padding: 10px; }
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px; }
+
+li {
+  list-style: none; }
+
+#weatherList > div {
+  text-align: left;
+  border: 1px black solid;
+  max-width: 400px; }
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue; }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px; }
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: whitesmoke; }
+  button:hover {
+    background-color: green; }
+  button.clear:hover {
+    background-color: red; }
+
+/*# sourceMappingURL=style.css.map */

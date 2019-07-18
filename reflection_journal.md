@@ -89,3 +89,9 @@
 2. Group meeting went really well. Almost everyone is done with their fluency reports and started on their final project. I will be turning in the last CSS project tonight.
 3. I have all the videos post for the group in the announcements. We are going to continue with our meetings to make sure everyone is well supported. I think this is smart to make sure nobody has any problems. We also get to showcase what we did that we if anyone wants to see. 
 4. Writing the professionalism paper tonight. Get that turned in and have a good weekend.
+
+
+## Mon 01 Jul 2019
+
+
+
