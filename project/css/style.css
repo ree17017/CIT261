@@ -1,3 +1,17 @@
+#weatherList > div {
+  text-align: left;
+  border: 1px black solid;
+  max-width: auto; }
+
+.flex-container {
+  display: flex;
+  width: auto; }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px; }
+
 .hot > ul {
   background-color: white; }
 .hot:hover {
@@ -51,10 +65,15 @@
     background-color: black; }
   .bar:hover .bar2 {
     transform: rotate(45deg) translate(-7px, -8px);
-    background-color: white; }
-  .bar:hover .bar3 {
-    transform: rotate(45deg) translate(-15px, -15px);
     background-color: black; }
+  .bar:hover .bar3 {
+    transform: rotate(45deg) translate(-18px, -18px);
+    background-color: black;
+    position: absolute; }
+
+#error {
+  animation: shrink 1s linear;
+  transition: height 2; }
 
 /* Grid layout */
 .item1 {
@@ -85,27 +104,29 @@
 li {
   list-style: none; }
 
-#weatherList > div {
-  text-align: left;
-  border: 1px black solid;
-  max-width: 400px; }
+.clear {
+  transition: height 3s, width 3s;
+  height: 18px;
+  width: 120px; }
+  .clear:hover {
+    background-color: red;
+    width: 140px;
+    height: 40px; }
 
-.flex-container {
-  display: flex;
-  background-color: DodgerBlue; }
-  .flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px; }
+.storage {
+  transition: height 3s, width 3s;
+  height: 18px;
+  width: 120px; }
+  .storage:hover {
+    background-color: red;
+    height: 40px;
+    width: 140px; }
 
-button {
+#loadWeather {
   width: 100px;
   height: 50px;
   background-color: whitesmoke; }
-  button:hover {
+  #loadWeather:hover {
     background-color: green; }
-  button.clear:hover {
-    background-color: red; }
 
 /*# sourceMappingURL=style.css.map */

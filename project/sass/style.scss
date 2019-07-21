@@ -38,26 +38,31 @@ li {
     list-style: none;
 }
 
-#weatherList>div {
-    text-align: left;
-    border: 1px black solid;
-    max-width: 400px;
-}
+.clear {
+    transition: height 3s, width 3s;
+    height: 18px;
+    width: 120px;
 
-.flex-container {
-    display: flex;
-    background-color: DodgerBlue;
-
-    &>div {
-        background-color: #f1f1f1;
-        margin: 10px;
-        padding: 20px;
-        font-size: 30px;
+    &:hover {
+        background-color: red;
+        width: 140px;
+        height: 40px;
     }
 }
 
+.storage {
+    transition: height 3s, width 3s;
+    height: 18px;
+    width: 120px;
 
-button {
+    &:hover {
+        background-color: red;
+        height: 40px;
+        width: 140px;
+    }
+}
+
+#loadWeather {
     width: 100px;
     height: 50px;
     background-color: whitesmoke;
@@ -66,7 +71,6 @@ button {
         background-color: green;
     }
 
-    &.clear:hover {
-        background-color: red;
-    }
+
+
 }

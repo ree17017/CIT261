@@ -12,24 +12,16 @@
 
 <body>
     <div class="grid-container">
-        <div class="item1"></div>
+        <div class="item1">
+            <h1>Weather App</h1>
+        </div>
         <div class="item2" style="text-align: left;">
-            <ul>
-                <li>Weather App</li>
-                <li>UserName</li>
-                <li>Search for Locations</li>
-                <li>Saves the Location if the user wants to</li>
-                <li>Keeps Local storage of the city name</li>
-                <li>Keeps local storage of the city information</li>
-                <li>Build cards for each town stats</li>
-                <li>Create CSS to move the user to each part</li>
-                <li></li>
-            </ul>
-            <label for="cityName">Enter City name:
-                <input type="text" name="cityName" id="cityName" value="turlock" placeholder="Enter City Name">
-            </label><br>
+            <label for="cityName">Enter City name:</label><br>
+            <input type="text" name="cityName" id="cityName" value="turlock" placeholder="Enter City Name">
+            <button class="clear" id="clear">Clear Textbox</button>
+            <br>
             <button id="loadWeather">Search</button><br>
-            <button class="clear" id="clear">Clear</button>
+            <button id="clearLocalStorage" class="storage">Clear Local Storage</button>
 
         </div>
         <div class="item3" style="">
@@ -49,6 +41,5 @@
 </body>
 
 <script src="js/ajax.js"></script>
-<script src="js/save.js"></script>
 
 </html>
