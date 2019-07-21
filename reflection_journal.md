@@ -93,5 +93,12 @@
 
 ## Mon 01 Jul 2019
 
+1. Team is doing great. Did another recording of our team meeting and posted them to YouTube and group. 
+1. Did not have any struggles making this weeks topic. 
+1. Learning how 
+
+## Wed 10 Jul 2019
+
+## Wed 17 Jul 2019
 
 

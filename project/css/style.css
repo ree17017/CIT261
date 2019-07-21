@@ -1,3 +1,79 @@
+/* Grid layout */
+.item1 {
+  grid-area: header; }
+
+.item2 {
+  grid-area: menu; }
+
+.item3 {
+  grid-area: main; }
+
+.item4 {
+  grid-area: right; }
+
+.item5 {
+  grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header header header header header header" "menu main main main right right" "menu footer footer footer footer footer";
+  grid-gap: 10px;
+  padding: 10px; }
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px; }
+
+li {
+  list-style: none; }
+
+.clear {
+  transition: height 1s, width 1s;
+  height: 18px;
+  width: 120px; }
+  .clear:hover {
+    background-color: red;
+    width: 140px;
+    height: 40px; }
+
+.storage {
+  transition: height 2s, width 2s;
+  height: 18px;
+  width: 120px; }
+  .storage:hover {
+    background-color: red;
+    height: 40px;
+    width: 140px; }
+
+#loadWeather {
+  width: 100px;
+  height: 50px;
+  background-color: whitesmoke; }
+  #loadWeather:hover {
+    background-color: green; }
+
+@keyframes exit {
+  0% {
+    transform: rotate(0deg);
+    width: 120px; }
+  25% {
+    transform: rotate(90deg);
+    width: 100px; }
+  50% {
+    transform: rotate(180deg);
+    width: 80px; }
+  75% {
+    transform: rotate(270deg);
+    width: 60px; }
+  100% {
+    transform: rotate(360deg);
+    width: 40px; } }
+.exit {
+  animation: exit linear 4s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
 #weatherList > div {
   text-align: left;
   border: 1px black solid;
@@ -78,82 +154,6 @@
     height: 500px; } }
 #error {
   animation: shrink 10s linear;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-
-/* Grid layout */
-.item1 {
-  grid-area: header; }
-
-.item2 {
-  grid-area: menu; }
-
-.item3 {
-  grid-area: main; }
-
-.item4 {
-  grid-area: right; }
-
-.item5 {
-  grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas: "header header header header header header" "menu main main main right right" "menu footer footer footer footer footer";
-  grid-gap: 10px;
-  padding: 10px; }
-  .grid-container > div {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px; }
-
-li {
-  list-style: none; }
-
-.clear {
-  transition: height 3s, width 3s;
-  height: 18px;
-  width: 120px; }
-  .clear:hover {
-    background-color: red;
-    width: 140px;
-    height: 40px; }
-
-.storage {
-  transition: height 3s, width 3s;
-  height: 18px;
-  width: 120px; }
-  .storage:hover {
-    background-color: red;
-    height: 40px;
-    width: 140px; }
-
-#loadWeather {
-  width: 100px;
-  height: 50px;
-  background-color: whitesmoke; }
-  #loadWeather:hover {
-    background-color: green; }
-
-@keyframes exit {
-  0% {
-    transform: rotate(0deg);
-    width: 120px; }
-  25% {
-    transform: rotate(90deg);
-    width: 100px; }
-  50% {
-    transform: rotate(180deg);
-    width: 80px; }
-  75% {
-    transform: rotate(270deg);
-    width: 60px; }
-  100% {
-    transform: rotate(360deg);
-    width: 40px; } }
-.exit {
-  animation: exit linear 4s;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
