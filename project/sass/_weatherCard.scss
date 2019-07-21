@@ -108,15 +108,21 @@
 }
 
 @keyframes shrink {
-    0% {}
 
-    50% {}
+    to {
+        height: 0px;
+    }
 
-    100% {}
+    from {
+
+        height: 500px;
+    }
 
 }
 
 #error {
-    animation: shrink 1s linear;
-    transition: height 2;
+    animation: shrink 10s linear;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

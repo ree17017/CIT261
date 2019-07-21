@@ -82,7 +82,6 @@ function weatherColor(cityName, temp) {
     } else if (temp <= 32) {
         weatherCardID.setAttribute('class', 'cold');
     }
-
 }
 
 function removeErrorCard() {
@@ -139,12 +138,14 @@ function addWeather(cityName, weatherObj) {
 
 
 const capitalize = (s) => {
-    if (typeof s !== 'string') return s
+    if (typeof s !== 'string') return s;
     return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
 const kelvinToFahrenheit = (kellvin) => {
-    if (typeof kellvin !== "number") return kellvin
+
+    if (typeof kellvin !== "number") return kellvin;
+
     return (kellvin - 273.15) * 9 / 5 + 32;
 }
 
@@ -192,10 +193,14 @@ function clearText() {
 function clearLocalStorage() {
     if (confirm(`Are you sure you want to clear Local Storage?`)) {
         localStorage.clear();
-        document.getElementById("clearLocalStorage").style.display = "none";
+        document.getElementById("clearLocalStorage").classList.add("exit");
+        setTimeout(removeLocalStorageButton, 4500);
     }
 }
 
+var removeLocalStorageButton = () => {
+    document.getElementById("clearLocalStorage").style.display = "none";
+};
 document.getElementById
 document.getElementById("clearLocalStorage").addEventListener("click", clearLocalStorage);
 document.getElementById("clear").addEventListener("click", clearText);

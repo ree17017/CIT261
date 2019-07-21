@@ -70,7 +70,38 @@ li {
     &:hover {
         background-color: green;
     }
+}
 
+@keyframes exit {
+    0% {
+        transform: rotate(0deg);
+        width: 120px;
+    }
 
+    25% {
+        transform: rotate(90deg);
+        width: 100px;
+    }
 
+    50% {
+        transform: rotate(180deg);
+        width: 80px;
+    }
+
+    75% {
+        transform: rotate(270deg);
+        width: 60px;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        width: 40px;
+    }
+}
+
+.exit {
+    animation: exit linear 4s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

@@ -71,9 +71,16 @@
     background-color: black;
     position: absolute; }
 
+@keyframes shrink {
+  to {
+    height: 0px; }
+  from {
+    height: 500px; } }
 #error {
-  animation: shrink 1s linear;
-  transition: height 2; }
+  animation: shrink 10s linear;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 /* Grid layout */
 .item1 {
@@ -128,5 +135,27 @@ li {
   background-color: whitesmoke; }
   #loadWeather:hover {
     background-color: green; }
+
+@keyframes exit {
+  0% {
+    transform: rotate(0deg);
+    width: 120px; }
+  25% {
+    transform: rotate(90deg);
+    width: 100px; }
+  50% {
+    transform: rotate(180deg);
+    width: 80px; }
+  75% {
+    transform: rotate(270deg);
+    width: 60px; }
+  100% {
+    transform: rotate(360deg);
+    width: 40px; } }
+.exit {
+  animation: exit linear 4s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 /*# sourceMappingURL=style.css.map */
