@@ -62,12 +62,12 @@
 ## May 30, 2019
 
 1. Had a good team meeting. I taught about transitions. Easy stuff to teach and learn about. Don't over do it because it can be annoying to the user.
-2. Had a lot of fun writing the ajax fluency. Ajax is one of my favorite javascript programs to write because you don't have to refresh the page to change the content. I am excited to learn more about React which does a lot of these things for you. 
+2. Had a lot of fun writing the Ajax fluency. Ajax is one of my favorite JavaScript programs to write because you don't have to refresh the page to change the content. I am excited to learn more about React which does a lot of these things for you. 
 3. Build out a better JSON object fluency should be able to pass with 10 on both these assignments.
 
 ## June 5, 2019
 
-1. I am moving to Utah this week I got my house up for sale. I did put in 7 hours of studying Javascript but did not get a lot of coding done. See how I can do tonight for the next 2 hours.
+1. I am moving to Utah this week I got my house up for sale. I did put in 7 hours of studying JavaScript but did not get a lot of coding done. See how I can do tonight for the next 2 hours.
 2. Made it to the team meeting. Recorded it and going to post it to YouTube. 
 3. Seems like everyone on the team is doing fine with their code and have no blockers.
 
@@ -85,7 +85,7 @@
 
 ## June 27, 2019
 
-1. Working on full CSS Animation, transitions, transforms. I think I did at least a basic or high level for the css on that assignment. Just takes a lot of time making the layout and writing what should happen. CSS is one of the easyest things. Super fun.
+1. Working on full CSS Animation, transitions, transforms. I think I did at least a basic or high level for the css on that assignment. Just takes a lot of time making the layout and writing what should happen. CSS is one of the easiest things. Super fun.
 2. Group meeting went really well. Almost everyone is done with their fluency reports and started on their final project. I will be turning in the last CSS project tonight.
 3. I have all the videos post for the group in the announcements. We are going to continue with our meetings to make sure everyone is well supported. I think this is smart to make sure nobody has any problems. We also get to showcase what we did that we if anyone wants to see. 
 4. Writing the professionalism paper tonight. Get that turned in and have a good weekend.
@@ -99,6 +99,18 @@
 
 ## Wed 10 Jul 2019
 
+1. Meeting went well. Nobody had to much information to pass on. Project is due the 20. Need to finish up topics. Nothing really to report. Everything is going well as expected. Topics are easy and fun to create. 
+1. House buying has gone well. Sold our house, and put bid on one. 
+
 ## Wed 17 Jul 2019
+
+1. Working on creating the final project idea. I think I am going to build the weather application out. So that it makes cards and saves the information to the local storage. This should be fun because there will be a lot of moving parts and to make it functional.
+1. I am not understanding why we need so much CSS transition and transforms in our assignments. I do not see that a lot in other websites. There might be formatting and media query's that are more helpful for a mobile applications class. But I will do as requested because that as well is a important skill to learn. That is not always about what you think or have observed in other sites. We need to be cutting edge.
+1. All topics should be done and turned in soon. 
+
+## Sat 20 Jul 2019
+
+1. Finished the project and documentation. It was a little challenging because I wanted to work more with the DOM. I think I did a good job. 
+1. Group meet this week. Most team member had already finished their project. Since I had spent time with my family last week I did not start my final project until this last Monday.
 
 
